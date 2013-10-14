@@ -1,6 +1,6 @@
 [
  {
-   "repository": "TeamHackLG/lge-kernel-p700",
+   "repository": "TeamHackLG/lge-kernel-lproj",
    "target_path": "kernel/lge/msm7x27a-common",
    "branch": "android-msm-3.4-jb4.3"
  },
@@ -22,6 +22,6 @@
  {
    "repository": "TeamHackLG/android_hardware_qcom_display-caf",
    "target_path": "hardware/qcom/display-caf",
-   "branch": "jb4.3"
+   "branch": "cm-10.2"
  }
 ]
