@@ -40,10 +40,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/touch_mcs8000.idc:system/usr/idc/touch_mcs8000.idc \
     $(LOCAL_PATH)/configs/touch_mcs8000.kl:system/usr/keylayout/touch_mcs8000.kl
 
-# Wifi
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/wlan.ko:system/lib/modules/wlan.ko
-
 # Enable for debugging
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.debuggable=1 \
