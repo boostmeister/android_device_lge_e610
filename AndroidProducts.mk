@@ -15,5 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_e610.mk \
-    $(LOCAL_DIR)/full_e610.mk
+    $(LOCAL_DIR)/omni_e610.mk

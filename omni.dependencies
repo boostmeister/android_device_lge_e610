@@ -1,0 +1,20 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "TeamHackLG/android_device_lge_msm7x27a-common",
+    "target_path": "device/lge/msm7x27a-common",
+    "revision":    "omnirom"
+  },
+  {
+    "remote":      "github",
+    "repository":  "TeamHackLG/proprietary_vendor_lge",
+    "target_path": "vendor/lge",
+    "revision":    "cm-11.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "TeamHackLG/lge-kernel-lproj",
+    "target_path": "kernel/lge/msm7x27a-common",
+    "revision":    "android-msm-3.4-kk"
+  }
+]

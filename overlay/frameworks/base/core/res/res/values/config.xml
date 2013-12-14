@@ -37,4 +37,8 @@
         <item>50</item>
     </integer-array>
 
+    <!-- Enable lockscreen translucent decor -->
+    <bool name="config_enableLockScreenTranslucentDecor">true</bool>
+
+
 </resources>
