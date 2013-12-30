@@ -6,9 +6,10 @@ LGE_PROJECT := l
 -include vendor/lge/e610/BoardConfigVendor.mk
 TARGET_BOOTLOADER_BOARD_NAME := e610
 
-BOARD_KERNEL_CMDLINE := androidboot.hardware=m4 lge.signed_image=false
+BOARD_KERNEL_CMDLINE := androidboot.hardware=m4 lge.signed_image=false androidboot.selinux=permissive
 
 TARGET_KERNEL_CONFIG := cyanogenmod_m4_defconfig
+TARGET_KERNEL_SELINUX_CONFIG := cyanogenmod_m4_selinux_defconfig
 
 TARGET_RECOVERY_FSTAB := device/lge/e610/fstab.m4
 
