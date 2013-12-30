@@ -15,6 +15,24 @@
     "remote":      "github",
     "repository":  "TeamHackLG/lge-kernel-lproj",
     "target_path": "kernel/lge/msm7x27a-common",
-    "revision":    "android-msm-3.4-kk"
+    "revision":    "android-msm-3.4-kk-exp"
+  }
+  {
+    "remote":      "github",
+    "repository":  "TeamHackLG/android_hardware_qcom_display-caf",
+    "target_path": "hardware/qcom/display-caf",
+    "revision":    "cm-11.0"
+  }
+  {
+    "remote":      "github",
+    "repository":  "TeamHackLG/android_hardware_qcom_media-caf",
+    "target_path": "hardware/qcom/media-caf",
+    "revision":    "cm-11.0"
+  }
+  {
+    "remote":      "github",
+    "repository":  "CyanogenMod/android_hardware_qcom_gps",
+    "target_path": "hardware/qcom/gps",
+    "revision":    "cm-11.0"
   }
 ]
