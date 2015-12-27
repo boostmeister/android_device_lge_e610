@@ -15,3 +15,5 @@ TARGET_RECOVERY_FSTAB := device/lge/e610/fstab.m4
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/e610/bluetooth
 
 BOARD_CUSTOM_GRAPHICS := ../../../device/lge/e610/recovery/graphics.c
+
+TARGET_NO_SEPARATE_RECOVERY := true
